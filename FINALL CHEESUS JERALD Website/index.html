@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Cheesus</title>
+    <meta name="description" content="Jerald Sabado's Website" />
+    <meta name="author" content="Jerald Sabado" />
+    <meta
+      name="keywords"
+      content="Cheesus" 
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://cdn.discordapp.com/attachments/659416612805541919/1062413218103951370/FPz5JZaVsAQU7mz-removebg-preview.png"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="stars.css" />
+
+    <script src="https://code.iconify.design/2/2.1.0/iconify.min.js" crossorigin="anonymous"></script>
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@2/dist/zero-md.min.js"
+      crossorigin="anonymous" ></script>
+  </head>
+
+  <body class="bg-dark text-white">
+    <!--Navigation Bar-->
+    <div class="stars"></div>
+    <section id="Nav">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+          <a href="#" class="navbar-brand">
+            <img src="icon/favicon.png" alt="" width="45vh" />
+            Jerald's Website
+          </a>
+          <div class="collapse navbar-collapse text-lg-center" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-items">
+                <a href="#Home" class="nav-link">Home</a>
+              </li>
+              <li class="nav-items">
+                <a href="#About" class="nav-link">About</a>
+              </li>
+              <li class="nav-items">
+                <a href="#Project" class="nav-link">Project</a>
+              </li>
+              <li class="nav-items">
+                <a href="#Contact" class="nav-link">Contact</a>
+              </li>
+              <li class="nav-items">
+                <button
+                  onclick="themeSwitch()"
+                  type="button"
+                  class="card-btn nav-link"
+                  id="theme"
+                  style="padding:2px 0 3px 0;margin-bottom:1rem;"
+                >
+                  Dark Mode
+                </button>
+              </li>
+            </ul>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navmenu"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+    </section>
+    <!-- nav bar ends -->
+    <header>
+      <section id="Home pb-5">
+        <div class="container">
+          <div class="row galaxy">
+            <div class="col-md-6 idk">
+              <h1 class="fs-1"><strong>Cheesus's Website</strong></h1>
+              <p class="fs-5">
+                Welcome to my personal website, which may include gaming information, projects, and what I've been up to in recent years.
+                 <h1 class="rainbow_text_animated"><span class="sub_text2" id="clock"></span></h1>
+                 <input type="radio" id="12hf" name="tf" value="12" >
+                 <label for="12hf">12-Hour Format</label>
+                 <input type="radio" id="24hf" name="tf" value="24" checked>
+                 <label for="24hf">24-Hour Format</label>
+              </p>
+            </div>
+            <div class="col mx-auto pe-xxl-5 spin">
+              <img
+                src="https://cdn.discordapp.com/attachments/659416612805541919/1062413218103951370/FPz5JZaVsAQU7mz-removebg-preview.png"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section id="About">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="col-md-12 about text-lg-center">
+                <h1 class="h1 text-center"><strong>About</strong></h1>
+                <p class="text-center">
+                  Welcome to the Website of <span>Cheesus</span>
+                </p>
+                <p class="d-flex text-justify align-content-lg-center ps-xxl-5">
+                  Hello, I suspect you are lost. Who am I? My name is Jerald Sabado. In General Trias, Cavite, I am currently pursuing a BsInfoTech degree. I enjoy playing video games, and some online games are one of my hobbies, as most BS in IT students are gamers.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Skills-->
+        <div class="col-md-12">
+          <div class="align-content-center center" style="padding-top: 5rem">
+            <h1 class="fs-1 text-center"><strong>Skills</strong></h1>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-xxl-12 text-center">
+                <button type="button" class="btn about-button">
+                  <span class="iconify" data-icon="fa-brands:java"></span> Java
+                </button>
+                <button type="button" class="btn about-button">
+                  <span class="iconify" data-icon="akar-icons:html-fill"></span>
+                  HTML
+                </button>
+                <button type="button" class="btn about-button"id="Skills">
+                  <span class="iconify" data-icon="akar-icons:css-fill"></span>
+                  CSS
+                </button>
+                <button type="button" class="btn about-button">
+                  <span class="iconify" data-icon="akar-icons:sass-fill"></span>
+                  SCSS/SASS
+                </button>
+                <button type="button" class="btn about-button">
+                  <span class="iconify" data-icon="fa-brands:js"></span> JS
+                </button>
+                <button type="button" class="btn about-button">
+                  <span class="iconify" data-icon="cib:c"></span> C
+                </button>
+                <button type="button" class="btn about-button">
+                  <span class="iconify" data-icon="cib:cplusplus"></span> C++
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Planning to Learn-->
+
+        <div class="col-md-12">
+          <div
+            class="align-content-center center"
+            style="padding-top: 5rem; padding-bottom: 5rem"
+          >
+            <h1 class="fs-1 text-center">
+              <strong
+                >Technologies Planning to Learn<br />(Maybe in 
+                <script>
+                document.write(new Date().getFullYear());
+                </script>)</strong
+              >
+            </h1>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-xxl-12 text-center">
+                <a
+                  type="button"
+                  class="btn about-button"
+                  href="https://www.typescriptlang.org/"
+                  target="_blank"
+                  rel="noopener"
+                  ><span class="iconify" data-icon="cib:typescript"></span>
+                  Typescript</a
+                >
+                <a
+                  type="button"
+                  class="btn about-button"
+                  href="https://reactjs.org/"
+                  target="_blank"
+                  rel="noopener"
+                  ><span
+                    class="iconify"
+                    data-icon="grommet-icons:reactjs"
+                  ></span>
+                  Reactjs</a
+                >
+                <a
+                  type="button"
+                  class="btn about-button"
+                  href="https://tailwindcss.com"
+                  target="_blank"
+                  rel="noopener"
+                  ><span class="iconify" data-icon="bx:bxl-tailwind-css"></span>
+                  TailwindCSS</a
+                >
+                <a
+                  type="button"
+                  class="btn about-button"
+                  href="https://vuejs.org"
+                  target="_blank"
+                  rel="noopener"
+                  ><span class="iconify" data-icon="akar-icons:vue-fill"></span>
+                  Vuejs</a
+                >
+                <a type="button" class="btn about-button"
+                  ><span class="iconify" data-icon="fa-brands:js"></span> JS</a
+                >
+                <a type="button" class="btn about-button"
+                  ><span class="iconify" data-icon="mdi:language-csharp"></span>
+                  C#</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Projects-->
+      <section id="Project">
+        <div class="container" class="card-fix">
+          <div class="row card-fix">
+            <div
+              class="align-content-center center"
+              style="padding-top: 5rem; padding-bottom: 5rem"
+            >
+              <h1 class="fs-1 text-center"><strong>Projects</strong></h1>
+            </div>
+            <!-- 1st Project-->
+            <div class="col-lg-4 mb-3 d-flex align-items-stretch">
+              <div class="card text-center">
+                <img
+                  src="https://camo.githubusercontent.com/5e45161dfa000b35724e02049cdb964a104ab09caf0ac579ddd21705c58cef9f/68747470733a2f2f692e696d6775722e636f6d2f4d6f355054514d2e706e67"
+                  class="card-img-top mx-auto"
+                  style="border-radius: 2em 2em 0px 0px; padding-top: 1em"
+                  alt="Card Image"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title p-2"><strong>Quiz Game</strong></h5>
+                  <p class="card-text mb-4">
+                    A Java Quiz program which you can basically learn basic use of Java <br /><br /><strong> Langauge: Java</strong>
+                  </p>
+                  <a
+                    href=""
+                    target="_blank"
+                    class="btn align-self-start d-block mx-auto about-button"
+                    rel="noopener"
+                    ><span
+                      class="iconify"
+                      data-icon="akar-icons:github-fill"
+                    ></span>
+                    Source Code!</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- 2nd Project-->
+            <div
+              class="col-lg-4 mb-3 d-flex align-items-stretch text-center text-capitalize"
+            >
+              <div class="card text-center">
+                <img
+                  src="https://camo.githubusercontent.com/ec0827d453b3797a00281337016819da1f301e1c7b8fb213d9d6b3a52bc953ad/68747470733a2f2f692e696d6775722e636f6d2f613532323331562e706e67"
+                  class="card-img-top img-too-big"
+                  style="width: 100%; padding-top: 2rem"
+                  alt="Card Image"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title p-2">
+                    <strong>Assassination Simulator</strong>
+                  </h5>
+                  <p class="card-text mb-4">
+                     <strong>A Java Assassination Simulator Program That will Get a target info and Showcase all of the victims</strong
+                    >
+                  </p>
+                  <a
+                    href=""
+                    target="_blank"
+                    class="btn mt-auto align-self-start d-block mx-auto about-button"
+                    rel="noopener"
+                    ><span
+                      class="iconify"
+                      data-icon="akar-icons:github-fill"
+                    ></span>
+                    Source Code!</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!--3rd Project-->
+            <div class="col-lg-4 mb-3 d-flex align-items-stretch">
+              <div class="card text-center">
+                <img
+                  src="https://camo.githubusercontent.com/0eb879a2d793e3f0fea993747588c82d625b5d36276382e01be7f79b4772b9e9/68747470733a2f2f692e696d6775722e636f6d2f30557935434b642e706e67"
+                  class="card-img-top img-fluid img-too-big"
+                  alt="Card Image"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title p-2">
+                    <strong>Ecosia Search Bot</strong>
+                  </h5>
+                  <p class="card-text mb-4">
+                    A python program That will Automate the search in Ecoasia.
+                  </p>
+                  <a
+                    href=""
+                    target="_blank"
+                    class="btn about-button mt-auto align-self-start d-block mx-auto about-button"
+                    rel="noopener"
+                    ><span
+                      class="iconify"
+                      data-icon="akar-icons:github-fill"
+                    ></span>
+                    Source Code!</a
+                  >
+                </div>
+              </div>
+            </div>
+
+                   <div class="col-lg-4 mb-3 d-flex align-items-stretch">
+              <div class="card text-center">
+                <img
+                  src="https://cdn.discordapp.com/attachments/860120762325532702/930107496444604426/unknown.png"
+                  class="card-img-top img-fluid img-too-big"
+                  style="width:80%"
+                  alt="Card Image"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title p-2">
+                    <strong>Lorem ipsum dolor sit amet. </strong>
+                  </h5>
+                  <p class="card-text mb-4">
+                    A Genshin Impact Fps Boost
+                  </p>
+                    <a
+                    href=""
+                    target="_blank"
+                    class="btn about-button mt-auto align-self-start d-block mx-auto about-button"
+                    rel="noopener"
+                    ><span
+                      class="iconify"
+                      data-icon="akar-icons:github-fill"
+                    ></span>
+                    Original Source Code</a
+                  >
+                  </p>
+                  <a
+                    href="https://cdn.discordapp.com/attachments/853549063424311346/930106217303527434/Release.zip"
+                    target="_blank"
+                    class="btn about-button mt-auto align-self-start d-block mx-auto about-button"
+                    rel="noopener"
+                    >
+                    Download</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+           <div class="align-content-center center pb-5 pt-2" >
+              <h1 class="fs-1 text-center"><strong>Work In Progress Project</strong></h1> 
+               <h1 class="fs-5 text-center pt-5 pb-5">None</h1> 
+             
+              </div>
+        </div>
+      </section>
+    </main>
+    <section id="Contact">
+      <div class="container" >
+        <div class="align-content-center center" style="padding-top: 5rem">
+          <h1 class="fs-1 text-center">Contact</h1>
+        </div>
+
+        <div class="col-md-5 mx-auto text-center">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              aria-describedby="Name"
+              placeholder="Enter Name"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Enter Email"
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" rows="12"></textarea>
+          </div>
+          <div class="pt-5 ">
+            <button type="submit" class="btn about-button" onclick="submit()">
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer style="margin-top: 10%" id="footer">
+      <div class="row justify-content-center">
+        <div class="col-md-12 text-center">
+          <h2 class="fs-2"><strong>Cheesu's Website</strong></h2>
+
+          <!--Links-->
+          <p class="text-decoration-none">
+            <a href="#">Home</a>
+            <a href="#About">About</a>
+            <a href="#Project">Project</a>
+            <a href="#Contact">Contact</a>
+            <a href="index(old).html">Old Site</a>
+               <div class="row mt-5" style="padding-top:-2%;">
+            <div class="col-md-12 text-center">
+              <h2 class="fs-4"><strong>Alternative Contact</strong></h2>
+              <p>
+                Email: <strong>
+                </strong>
+              </p>
+            </div>
+          </div>
+          </p>
+          <!--Twitter-->
+           <h2 class="fs-4"><strong>Social Media</strong></h2>
+          <ul class="ftco-footer-social p-0">
+            <li class="ftco-animate">
+              <a
+                href="https://twitter.com"
+                data-toggle="tooltip"
+                data-placement="top"
+                title=""
+                data-original-title="Twitter"
+                aria-label="Twitter"
+                ><span
+                  class="iconify"
+                  data-icon="akar-icons:twitter-fill"
+                ></span
+              ></a>
+            </li>
+            <!--Facebook-->
+            <li class="ftco-animate">
+              <a
+                href="https://facebook.com"
+                data-toggle="tooltip"
+                data-placement="top"
+                title=""
+                data-original-title="Facebook"
+                style="padding-top: 0.3em"
+                aria-label="Facebook"
+                ><span
+                  class="iconify"
+                  data-icon="akar-icons:facebook-fill"
+                ></span>
+              </a>
+            </li>
+            <!--Instagram-->
+            <li class="ftco-animate">
+              <a
+                href="https://instagram.com"
+                data-toggle="tooltip"
+                data-placement="top"
+                title=""
+                data-original-title="Instagram"
+                aria-label="Instagram"
+                ><span
+                  class="iconify"
+                  data-icon="akar-icons:instagram-fill"
+                ></span>
+              </a>
+            </li>
+          </ul>
+          <div class="stars" style="overflow: hidden"></div>
+         
+          <div class="row mt-5">
+            <div class="col-md-12 text-center">
+              <p class="copyright">
+                Copyright ©
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                All rights reserved
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
